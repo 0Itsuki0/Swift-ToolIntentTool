@@ -2,145 +2,99 @@ import AppIntents
 import FoundationModels
 import ToolIntentTool
 
-//print(String(describing: Prompt { "test" }))
-
-//print(
-//    String(
-//        describing: Arguments().promptRepresentation
-//    )
-//)
-
-@Debug
-struct Test {
-    typealias Output = GreetingTool.Output
-
-    var test: String {
-        get async {
-            return ""
-        }
-    }
-
-//    @EnumToAppEnum
-    enum GenerableEnum: Int {
-        case hello
-        case hey
-    }
-
-    //    @GenerableToGenerable
-    struct Arguments {
-        @Guide(description: "The name to greet")
-        var name: String
-
-        var nameGet: String {
-            return name
-        }
-
-        //        @DeferredProperty
-        var nameGetAsync: String {
-            get async throws {
-                name
-            }
-        }
-
-    }
-}
-
-@Debug
-@Generable
-@GenerableToGenerable
-struct Arguments {
-    @Guide(description: "The name to greet")
-    var name: String
-
-    var nameGet: String {
-        return name
-    }
-
-    var nameGetAsync: String {
-        get async throws {
-            name
-        }
-    }
-    
-//    init(name: String) {
-//        self.name = name
-//    }
-//    
-//    init() {
-//        self.name = ""
-//    }
-}
-
-
-@Debug
-@Generable
-//@EnumToAppEnum
-enum GenerableEnum: Int {
-    case hello
-    case hey
-}
-
-
-@Debug
 @ToolToIntent
 struct GreetingTool: Tool {
-
     let name = "greet"
-    let description = "grett me!s"
+    let description = "greet a name."
 
     @Generable
     @GenerableToGenerable
     struct Arguments {
         @Guide(description: "The name to greet")
+        /// Expansion from `GenerableToGenerable`
+        /// `@Property(title: "name")`
         var name: String
     }
 
-    //    @Parameter(
-    //        title: .init(
-    //            stringLiteral: "\(Arguments.typeDisplayRepresentation.name) input"
-    //        )
-    //    )
-    //    var input: Arguments
-
+    @Generable
     @GenerableToGenerable
-    struct Output: PromptRepresentable {
+    struct Output {
         @Guide(description: "The result")
+        /// Expansion from `GenerableToGenerable`
+        /// `@Property(title: "result")`
         var result: String
-        
-        var promptRepresentation: Prompt {
-            Prompt { result }
-        }
     }
 
     func call(arguments: Arguments) async throws -> Output {
         print("Tool[\(name)] called with arguments: \(arguments)")
-//        return "Hello \(arguments.name)"
-        //        return .init(kind: .string("Hello, \(arguments.name)"))
         return Output(result: "Hello \(arguments.name)")
     }
+    
+    /// Expansion from `ToolToIntent`
+    /// ```
+    /// @Parameter(title: "Tool input")
+    /// var input_ToolIntentTool: Arguments
+    /// ```
 }
 
-//print("" is (any _IntentValue))
-//print(["": "Test"] is (any _IntentValue))
-//print(GreetingTool.Arguments(name: "test") is (any _IntentValue))
-let out = 123
+/// Expansion from `ToolToIntent`
+/// ```
+/// extension GreetingTool: ToolIntent {
+///     static var title: LocalizedStringResource {
+////  LocalizedStringResource(
+////      stringLiteral: "greet"
+////  )
+///     }
+///
+///     static var description: IntentDescription? {
+////  IntentDescription(
+////      stringLiteral: "greet a name."
+////  )
+///     }
+///
+///     func perform() async throws -> some IntentResult & ReturnsValue<Output> {
+////  let result = try await self.call(arguments: self.input_ToolIntentTool)
+////  return .result(value: result)
+///     }
+/// }
+/// ```
 
-@Debug
-struct DeclTest {
-    let name = "123" + "\(out)"
-    var getName: String {
-        "123" + "456"
-    }
-    var getName2: String {
-        return "123"
-    }
-    var getName3: String {
-        get {
-            return "123"
-        }
-    }
-    let int = 123
-    let vari = out
-}
 
-print(GreetingTool.groupDeclarationDescription)
+/// Expansion from `GenerableToGenerable`
+/// ```
+/// nonisolated extension GreetingTool.Output: GenerableEntity {
+///     public init(
+///         result: String,) {
+///
+///             self.result = result
+///         }
+///
+///     static var typeDisplayRepresentation: TypeDisplayRepresentation {
+///         TypeDisplayRepresentation(name: "Output")
+///     }
+///
+///     var displayRepresentation: DisplayRepresentation {
+///         DisplayRepresentation(stringLiteral: "Output")
+///     }
+/// }
+/// ```
+
+
+/// Expansion from `GenerableToGenerable`
+/// ```
+/// nonisolated extension GreetingTool.Arguments: GenerableEntity {
+///     public init(
+///         name: String,) {
+///
+///             self.name = name
+///         }
+///
+///     static var typeDisplayRepresentation: TypeDisplayRepresentation {
+///         TypeDisplayRepresentation(name: "Arguments")
+///     }
+///
+///     var displayRepresentation: DisplayRepresentation {
+///         DisplayRepresentation(stringLiteral: "Arguments")
+///     }
+/// }
+/// ```
