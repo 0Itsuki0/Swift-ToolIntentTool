@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary.swiftconstvalues",
+    "dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary.d",
+    "diagnostics" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary.dia",
+    "emit-module-dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary-emit-module.dia",
+    "pch" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool-primary.swiftdeps"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentTool/ToolIntentTool.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentTool-t.build/Objects-normal/arm64/ToolIntentTool.o"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "" : {
+    "const-values" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.swiftconstvalues",
+    "dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.d",
+    "diagnostics" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.dia",
+    "emit-module-dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary-emit-module.dia",
+    "pch" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.swiftdeps"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/AddDebugMacro.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/AddDebugMacro.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/AddDebugMacro.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/AddDebugMacro.o"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/EnumToAppEnumMacro.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/EnumToAppEnumMacro.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/EnumToAppEnumMacro.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/EnumToAppEnumMacro.o"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/GenerableToGenerableMacro.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/GenerableToGenerableMacro.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/GenerableToGenerableMacro.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/GenerableToGenerableMacro.o"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/Syntax+Extensions.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/Syntax+Extensions.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/Syntax+Extensions.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/Syntax+Extensions.o"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/ToolIntentToolMacro.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacro.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacro.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacro.o"
+  },
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/ToolToIntentMacro.swift" : {
+    "index-unit-output-path" : "/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolToIntentMacro.o",
+    "llvm-bc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolToIntentMacro.bc",
+    "object" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolToIntentMacro.o"
+  }
+}

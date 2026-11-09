@@ -1,0 +1,4 @@
+module ToolIntentTool {
+header "ToolIntentTool-Swift.h"
+export *
+}

@@ -1,0 +1,11 @@
+{
+  "/Users/itsuki/Desktop/MyProject/ToolIntentTool/Sources/ToolIntentToolMacros/AddDebugMacro.swift" : {
+    "abi-baseline-json" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros.abi.json",
+    "const-values" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.swiftconstvalues",
+    "dependencies" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.d",
+    "diagnostics" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros-primary.dia",
+    "swiftdoc" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros.swiftdoc",
+    "swiftmodule" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros.swiftmodule",
+    "swiftsourceinfo" : "/Users/itsuki/Desktop/MyProject/ToolIntentTool/build/ToolIntentTool.build/Release/ToolIntentToolMacros-t.build/Objects-normal/arm64/ToolIntentToolMacros.swiftsourceinfo"
+  }
+}
