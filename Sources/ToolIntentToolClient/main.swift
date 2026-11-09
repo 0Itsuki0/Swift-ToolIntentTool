@@ -41,20 +41,20 @@ struct GreetingTool: Tool {
 /// ```
 /// extension GreetingTool: ToolIntent {
 ///     static var title: LocalizedStringResource {
-////  LocalizedStringResource(
-////      stringLiteral: "greet"
-////  )
+///          LocalizedStringResource(
+///              stringLiteral: "greet"
+///          )
 ///     }
 ///
 ///     static var description: IntentDescription? {
-////  IntentDescription(
-////      stringLiteral: "greet a name."
-////  )
+///          IntentDescription(
+///              stringLiteral: "greet a name."
+///          )
 ///     }
 ///
 ///     func perform() async throws -> some IntentResult & ReturnsValue<Output> {
-////  let result = try await self.call(arguments: self.input_ToolIntentTool)
-////  return .result(value: result)
+///          let result = try await self.call(arguments: self.input_ToolIntentTool)
+///          return .result(value: result)
 ///     }
 /// }
 /// ```
